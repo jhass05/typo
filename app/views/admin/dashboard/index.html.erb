@@ -1,0 +1,20 @@
+<% content_for('tasks') do %>
+    <li><a href="http://typosphere.org">Documentation</a></li>
+    <li><a href="http://typogarden.org">Themes</a></li>
+<% end %>
+
+<div id='dashboard-left'>
+  <%= render :partial => "welcome" %>
+  <%= render :partial => "sysinfo" %>
+</div>
+
+<div id='dashboard-right'>
+  <%= render :partial => "overview" %>
+  <%= render :partial => "inbound" %>
+  <%= render :partial => "comments" %>
+  <%= render :partial => "posts" %>
+  <%= render :partial => "popular" %>
+  <%= render :partial => "typo_dev" %>  
+</div>
+
+

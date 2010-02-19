@@ -1,0 +1,15 @@
+Typo 5.4.3 fixes some nasty bugs that went through Typo 5.4.2 despite running tests before releasing. If you've been using Typo 5.4.2, you really should upgrade. And if you're running any prior version, you should upgrade too.
+
+Now sorting articles by publication date instead of creation date in the admin.
+
+In the admin, comment forms fields are now filled with the user info. Url and 
+email fields have been switched too to fit front end comment forms.
+
+Extending the editor a little bit, easier to use now.
+
+Ticket 143: Publish at post setting does not work
+
+Fixing a critial bug that made the page editor crash at loading. 
+
+Fixing a bug in RDOC that raised an error when installing.
+

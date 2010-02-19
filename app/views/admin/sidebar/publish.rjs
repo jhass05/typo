@@ -1,0 +1,4 @@
+page.replace_html('available_box', :partial => 'availables',
+                  :object => @available)
+page.replace_html('active', :partial => 'actives', :object => @active)
+page.hide('update_spinner')

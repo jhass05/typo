@@ -1,0 +1,17 @@
+<% @page_heading = _('Theme catalogue') %>
+<% subtabs_for(:themes) %>
+
+<% if @error %>
+  <p><%= _("Sorry the theme catalogue is not available") %></p>
+<% end %>
+
+<% for theme in @themes %>
+  <div class="theme">
+    <div class='inner'>
+      <%= link_to(image_tag(theme.image), theme.url) %>
+      <h3><%= theme.name %> created by <%= theme.author %></h3>
+      <p><%= theme.description %></p>
+    </div>
+  </div>
+<% end %>
+<hr class="clear" />

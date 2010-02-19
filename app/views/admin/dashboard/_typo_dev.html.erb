@@ -1,0 +1,21 @@
+<div class="bordered-orange">
+  <h3><%= _("Latest news from the Typo development blog") %></h3>
+  <% if @typo_links.nil? %>
+    <%= _('You have no internet connection') %>
+  <% else %>
+    <ul>
+      <% if @typo_links.size == 0 %>
+        <li><%= _("Oh no, nothing new") %></li>
+      <% else %>
+        <% @typo_links.each do |link| -%>
+          <li <%= alternate_class %>>
+            <h4><%= link_to("<strong>#{link.title}</strong><br />", link.link) %></h4>
+            <small><%= "#{link.date}<br />" %></small>
+            <%= link.description.strip_html.slice(0, 400) %>[...]
+          </li>
+        <% end %>
+      <% end %>
+    </ul>
+  <% end %>
+  <hr />
+</div>

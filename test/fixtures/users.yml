@@ -1,0 +1,100 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+tobi:
+  login: tobi
+  password: ea0f5fd4398054c1c7aa0fbc7aaea30914a14441 # whatever
+  name: Tobi
+  email: tobi@example.com
+  notify_via_email: false
+  notify_on_new_articles: false
+  notify_on_comments: false
+  notify_watch_my_articles: false
+  profile: admin
+  text_filter: markdown_filter
+  state: active
+  last_connection: 2009-11-21 12:15:58
+  
+bob:
+  login: bob
+  password: 9a91e1d8d95b6315991a88121bb0aa9f03ba0dfc # test
+  name: Bob
+  email: bob@example.com
+  notify_via_email: false
+  notify_on_new_articles: false
+  notify_on_comments: false
+  notify_watch_my_articles: false
+  profile: admin
+  text_filter: none_filter
+  state: active
+  last_connection: 2009-11-21 12:15:58
+  
+existingbob:
+  login: existingbob
+  password: 9a91e1d8d95b6315991a88121bb0aa9f03ba0dfc # test
+  name: Also Bob
+  email: alsobob@example.com
+  notify_via_email: false
+  notify_on_new_articles: false
+  notify_on_comments: false
+  notify_watch_my_articles: false
+  profile: admin
+  text_filter: markdown_filter
+  state: active
+  last_connection: 2009-11-21 12:15:58
+
+longbob:
+  login: longbob
+  password: 8e9b1a9a38e66ca572a5e8fdac8e256848842dfa # longtest
+  name: More Bob
+  email: longbob@example.com
+  notify_via_email: false
+  notify_on_new_articles: false
+  notify_on_comments: false
+  notify_watch_my_articles: false
+  profile: admin
+  text_filter: markdown_filter
+  state: active
+  last_connection: 2009-11-21 12:15:58
+  
+randomuser:
+  login: randomuser
+  password: 8e9b1a9a38e66ca572a5e8fdac8e256848842dfa # longtest
+  name: Random User
+  email: randomuser@example.com
+  notify_via_email: false
+  notify_on_new_articles: false
+  notify_on_comments: false
+  notify_watch_my_articles: false
+  profile: admin
+  text_filter: none_filter
+  state: active
+  last_connection: 2009-11-21 12:15:58
+  
+user_publisher:
+  login: shingara
+  password: 8e9b1a9a38e66ca572a5e8fdac8e256848842dfa # longtest
+  name: shingara
+  email: shingara@example.com
+  notify_via_email: false
+  notify_on_new_articles: false
+  notify_on_comments: false
+  notify_watch_my_articles: false
+  profile: publisher
+  text_filter: markdown_filter
+  state: active
+  last_connection: 2009-11-21 12:15:58
+
+inactive_user:
+  login: inactive
+  password: 8e9b1a9a38e66ca572a5e8fdac8e256848842dfa # longtest
+  name: inactive
+  email: inactive@example.com
+  notify_via_email: false
+  notify_on_new_articles: false
+  notify_on_comments: false
+  notify_watch_my_articles: false
+  profile: publisher
+  text_filter: markdown_filter
+  state: inactive
+  last_connection: 2009-11-21 12:15:58
+  
